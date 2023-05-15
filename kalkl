@@ -1,0 +1,28 @@
+from tkinter import*
+Kalkulators=Tk()
+Kalkulators.title("Kalkulators")
+Kalkulators.geometry("400x550")
+
+btn0=Button(Kalkulators, text="0", padx="40", pady="20").grid(row=4,column=1)
+
+btn1=Button(Kalkulators, text="1", padx="40", pady="20").grid(row=3,column=0)
+btn2=Button(Kalkulators, text="2", padx="40", pady="20").grid(row=3,column=1)
+btn3=Button(Kalkulators, text="3", padx="40", pady="20").grid(row=3,column=2)
+
+btn4=Button(Kalkulators, text="4", padx="40", pady="20").grid(row=2,column=0)
+btn5=Button(Kalkulators, text="5", padx="40", pady="20").grid(row=2,column=1)
+btn6=Button(Kalkulators, text="6", padx="40", pady="20").grid(row=2,column=2)
+
+btn7=Button(Kalkulators, text="7", padx="40", pady="20").grid(row=1,column=0)
+btn8=Button(Kalkulators, text="8", padx="40", pady="20").grid(row=1,column=1)
+btn9=Button(Kalkulators, text="9", padx="40", pady="20").grid(row=1,column=2)
+
+btnsas=Button(Kalkulators, text="+", padx="40", pady="20").grid(row=3,column=3)
+btnmin=Button(Kalkulators, text="-", padx="40", pady="20").grid(row=2,column=3)
+btnreiz=Button(Kalkulators, text="*", padx="40", pady="20").grid(row=1,column=3)
+btndal=Button(Kalkulators, text="/", padx="40", pady="20").grid(row=0,column=3)
+
+btnc=Button(Kalkulators, text="c", padx="40", pady="20").grid(row=0,column=0)
+btnir=Button(Kalkulators, text="=", padx="40", pady="20").grid(row=4,column=3)
+
+Kalkulators.mainloop()
